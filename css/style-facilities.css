@@ -173,7 +173,7 @@ body {
            text-align: center;
         }
         .services {
-            margin-left: 30px;
+            margin-left: 40px;
             margin-right: 50px;
             border-top: 1px solid rgba(0,0,0,.1);
             padding-top: 70px; 
@@ -182,7 +182,7 @@ body {
             display: none;
         }
         .like {
-            margin-left: 30px;
+            margin-left: 40px;
         }
     }
 
@@ -444,7 +444,7 @@ p{
     .cards{
         grid-template-columns: 1fr ;
         grid-row-gap: 30px;
-        margin: 30px;
+        margin: 40px;
     }
     .you {
     margin-bottom: 200px;
