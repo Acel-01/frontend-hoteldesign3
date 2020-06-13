@@ -20,7 +20,9 @@ body {
 }
 #book-rooms{
     float: left;
-    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    /* margin-left: 30px; */
     
 }
 #form-book-rooms{
@@ -45,6 +47,9 @@ body {
     border-bottom: 1px solid black;
     background-color: #FAFDFF;
     outline: none;
+}
+.night {
+    margin-left: -20px;
 }
 .num{
     width: 45.9%;
@@ -133,25 +138,25 @@ body {
         grid-template-columns: 70% 30%;
     }
 }
- 
+
+.more-images {
+    flex-wrap: wrap;
+   
+}
+
+.more-images img {
+    margin-top: 20px;
+    display: none; 
+}
 
 
-    .more-images {
-       flex-wrap: wrap;
-    }
- 
-    .more-images img {
-       margin-top: 20px; 
-    }
- 
-    
-    [fifth-image] {
-       width: 196px;
-    }
- 
-    .customer-review-section {
-        margin-left: 30px ;
-    }
+[fifth-image] {
+    width: 196px;
+}
+
+.customer-review-section {
+    margin-left: 30px ;
+}
 
     @media only screen and (max-width: 1028px) {
         .customer-review-section {
@@ -159,10 +164,27 @@ body {
             float: right;
         }
     }
+   
     
     @media only screen and (max-width: 400px) {
         .customer-review-section {
             float: none;
+        }
+        #customer-review-header {
+           /* margin-left: 30px; */
+           text-align: center;
+        }
+        .services {
+            margin-left: 30px;
+            margin-right: 50px;
+            border-top: 1px solid rgba(0,0,0,.1);
+            padding-top: 70px; 
+        }
+        .more-images img {
+            display: none;
+        }
+        .like {
+            margin-left: 30px;
         }
     }
 
@@ -209,6 +231,7 @@ body {
         line-height: 36px;
         margin: 24px 0 0 26px;
         padding-top: 56px;
+        padding-right: 24px;
     }
     
     #customer-img {
@@ -260,7 +283,7 @@ body {
  }
  
  .next-round {
-    padding-left: 180px;
+    padding-left: 190px;
  }
 
  .btn-button:hover {
@@ -320,7 +343,7 @@ p{
     /* font-family: Roboto;
     font-style: normal;
     max-width: 374px; */
-    /* font-weight: 500; */
+    font-weight: 500;
     font-size: 1.4vw;
     /* line-height: 33px; */
 
@@ -332,7 +355,7 @@ p{
 
 .services {
     font-size: smaller;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .line {
@@ -349,22 +372,21 @@ p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 25px;
     margin-bottom: 80px;
-  }
-  
-  .read{
-    
+    }
+
+.read{
+
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
     padding-top: 50px;
-  }
-  
-  .read-text{
+}
+
+.read-text{
     display: flex;
     justify-content: space-between;
-  }
-
-  
+}
+ 
 .read-text{
     display: flex;
     justify-content: space-between;
@@ -384,8 +406,7 @@ p{
     font-size: 1.3vw;
     max-width: 374px;
   }
-  
-  
+   
   .read-text a{
     color: rgb(0, 0, 250);
     text-decoration: none;
@@ -406,11 +427,9 @@ p{
     font-size: 14px;
     margin-bottom:0;
   }
-  
-  
+   
   @media (max-width:660px){
   
-    
     .rooms{
         display: flex;
         flex-direction: column;
@@ -434,70 +453,3 @@ p{
     margin-left: 0px;
     padding-left: 17px;
 }
-
-/* */
-
-@font-face{
-    font-family: Roboto;
-    src: url(RobotoSlab-Regular.ttf);
-   }
-   
-   
-   #footer{background: #144673;
-       color: #F5FAFF;
-       font-size:1.3vw;
-       padding-top: 5%;
-       letter-spacing: 0.7px;
-       font-family: Roboto;
-      
-   }
-   
-   .col{
-     padding-left: 2%;
-   }
-   
-   #paragraph1,#paragraph2,#paragraph3,#paragraph4{
-   margin-bottom: 30px;
-   }
-   
-   .dot{
-       width: 3.5px;
-   height: 3.5px;
-       background: #FFFFFF;
-       margin: 1.5% 0;
-   }
-   
-   .dot-hidden{
-       visibility: hidden;
-   }
-   
-   .first-row{
-       display: flex;
-       justify-content: space-around; 
-   }
-   
-   .second-row{
-       display: flex;
-       justify-content: space-around; 
-   }
-   .third-row{
-       display: flex;
-       justify-content: space-around; 
-   }
-   .fourth-row{
-       display: flex;
-       justify-content: space-around; 
-   }
-   .fifth-row{
-       display: flex;
-       justify-content: space-around; 
-   }
-   #polka{
-    margin-top: 10%;   
-   }
-   
-   /* @media(max-width:730px){
-    #footer{
-     font-size:2vw;
-    }
-   } */
