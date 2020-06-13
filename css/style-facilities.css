@@ -22,9 +22,9 @@ body {
     float: left;
     margin-top: 20px;
     padding-bottom: 40px;
-    /* margin-left: 30px; */
-    
+    /* margin-left: 30px; */   
 }
+
 #form-book-rooms{
     background-color: #FAFDFF;
     padding: 10px 20px 60px 20px;
@@ -148,7 +148,6 @@ body {
     margin-top: 20px;
     display: none; 
 }
-
 
 [fifth-image] {
     width: 196px;
